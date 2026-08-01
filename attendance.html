@@ -1,0 +1,150 @@
+<html lang="en"><head></head><body class="bg-background text-on-background font-body-md">```html
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-container": "#8999ff", "on-secondary-fixed": "#000e5e", "background": "#f4faff", "on-tertiary-fixed-variant": "#5c4300", "surface-container-highest": "#d7e4ec", "on-error-container": "#93000a", "surface-dim": "#cfdce4", "on-primary": "#ffffff", "tertiary-container": "#3f2d00", "inverse-primary": "#bdc2ff", "on-surface": "#111d23", "on-error": "#ffffff", "secondary-fixed-dim": "#bbc3ff", "surface-tint": "#4c56af", "tertiary-fixed-dim": "#f8bd2a", "tertiary": "#251900", "on-background": "#111d23", "outline": "#767683", "on-secondary-fixed-variant": "#2c3c9e", "on-primary-fixed": "#000767", "surface-container": "#e3f0f8", "surface-container-lowest": "#ffffff", "surface-variant": "#d7e4ec", "primary-fixed-dim": "#bdc2ff", "surface-container-low": "#e9f6fd", "surface": "#f4faff", "on-primary-container": "#8690ee", "error": "#ba1a1a", "secondary": "#4555b7", "inverse-surface": "#263238", "primary-container": "#1a237e", "primary-fixed": "#e0e0ff", "secondary-fixed": "#dee0ff", "on-surface-variant": "#454652", "surface-bright": "#f4faff", "tertiary-fixed": "#ffdfa0", "surface-container-high": "#ddeaf2", "on-secondary-container": "#182a8e", "on-primary-fixed-variant": "#343d96", "on-tertiary": "#ffffff", "on-tertiary-container": "#c19000", "outline-variant": "#c6c5d4", "inverse-on-surface": "#e6f3fb", "error-container": "#ffdad6", "primary": "#000666", "on-tertiary-fixed": "#261a00", "on-secondary": "#ffffff" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "container-max": "1280px", "gutter": "1.5rem", "margin-mobile": "1rem", "stack-md": "1rem", "stack-sm": "0.5rem", "stack-lg": "2rem", "margin-desktop": "2.5rem" }, "fontFamily": { "headline-xl": ["Inter"], "headline-md": ["Inter"], "label-md": ["Inter"], "headline-lg": ["Inter"], "body-lg": ["Inter"], "body-md": ["Inter"], "headline-lg-mobile": ["Inter"] }, "fontSize": { "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "700" }] } } } }</script><style>@layer base { body { -webkit-tap-highlight-color: transparent; } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } } </style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-14 px-margin-mobile flex items-center justify-between"><div class="flex items-center gap-stack-sm"><div class="w-8 h-8 rounded-full overflow-hidden flex items-center justify-center"><img alt="Logo" class="w-full h-full object-cover" src="https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg"/></div><h1 class="font-headline-md text-headline-md text-on-surface uppercase tracking-tight">DR.N.M.PERERA SCHOOL</h1></div><div class="flex items-center gap-stack-md"><button class="w-10 h-10 flex items-center justify-center text-on-surface-variant"><span class="material-symbols-outlined">notifications</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="pt-14 pb-24 min-h-screen bg-background"><div class="flex flex-col w-full px-margin-mobile gap-stack-lg">
+<section class="flex flex-col items-center justify-center py-stack-lg bg-surface-container-low rounded-full shadow-sm mt-stack-md overflow-hidden relative">
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<svg height="100%" preserveaspectratio="none" viewbox="0 0 100 100" width="100%">
+<defs>
+<lineargradient id="scanGradient" x1="0%" x2="0%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="var(--primary)" stop-opacity="0"></stop>
+<stop offset="50%" stop-color="var(--primary)" stop-opacity="0.5"></stop>
+<stop offset="100%" stop-color="var(--primary)" stop-opacity="0"></stop>
+</lineargradient>
+</defs>
+<rect fill="url(#scanGradient)" height="2" id="scanner-line" width="100" x="0" y="0">
+<animate attributename="y" dur="3s" from="0" repeatcount="indefinite" to="100"></animate>
+</rect>
+</svg>
+</div>
+<div class="relative group cursor-pointer active:scale-95 transition-transform duration-200" id="biometric-trigger">
+<div class="absolute -inset-4 border-4 border-tertiary-fixed-dim rounded-full animate-[pulse_2s_infinite]" id="status-ring"></div>
+<div class="w-32 h-32 bg-primary rounded-full flex items-center justify-center shadow-xl relative z-10">
+<span class="material-symbols-outlined text-on-primary text-[64px] transition-all duration-300" id="fingerprint-icon">fingerprint</span>
+</div>
+<div class="absolute inset-0 flex items-center justify-center opacity-0 scale-50 transition-all duration-500 pointer-events-none" id="success-sparkle">
+<span class="material-symbols-outlined text-tertiary-fixed text-[80px]">task_alt</span>
+</div>
+</div>
+<div class="mt-stack-lg text-center">
+<p class="font-headline-md text-headline-md text-primary" id="status-message">Place Finger</p>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest mt-1">Ready to Scan</p>
+</div>
+</section>
+<section class="flex flex-col gap-stack-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-error">person_off</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Absent Students (12)</h2>
+</div>
+<button class="text-primary font-label-md text-label-md flex items-center gap-1">
+                View All <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-2 gap-stack-md">
+<div class="bg-surface-container-highest p-stack-md rounded-xl flex flex-col items-center text-center gap-2">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="Close up portrait of a young male student in a white school uniform, focused expression, soft studio lighting with professional academic photography style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0KMcjfaGVzomRokCwcXS3FWRJJUuZTt5cp_6e5w0-mhqYTcgQ3Y3ZTD5GpifvtOeqMPuK8J9MMr6tAnS9Qszdm7viE4-YClRWrX7vdIsaIf_Gis5gWhFeoBkyKR4WkmUkVu_Cs2fFMvDLq3EKWAvYVjDhCOb4mM3gr6q49yiYw83J9b8v_YAzDGA294FherlhonrW8oewt0jzVxvgOj35pU7XfGm5htpEhXQWBuft4WEy10yqfbag_w"/>
+</div>
+<div class="min-w-0">
+<p class="font-body-md text-body-md text-on-surface font-bold truncate">Amal Perera</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Grade 11-A</p>
+</div>
+</div>
+<div class="bg-surface-container-highest p-stack-md rounded-xl flex flex-col items-center text-center gap-2">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="Close up portrait of a young female student with braided hair, wearing a traditional white school uniform, warm natural lighting, high resolution education app profile picture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEzilfmSMlWVRS926dkz598-im7fvnwXbHiloxhNLuGO2z3ud3WKne24axLf6x26niKaPx70EAcah4hjKL4r2toCKSpecm8830224GYKXItzQmJMOHj-t5vT-pdvQZHqBskdS5F99IObNTYphaKISrqQA5o0cUSLO4KdZkcz84-YgVNUKIxoqtk-nb-MCBUDq17BYdRnBhHOVJ7WgA7cnFl-f-RDehQr7j-RTvkuq361oqa8xWpR-4mw"/>
+</div>
+<div class="min-w-0">
+<p class="font-body-md text-body-md text-on-surface font-bold truncate">Nimali de Silva</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Grade 11-B</p>
+</div>
+</div>
+</div>
+</section>
+<section class="flex flex-col gap-stack-md mb-stack-lg">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">history</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">History</h2>
+</div>
+<div class="flex flex-col bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<div class="p-stack-md flex items-center justify-between border-b border-surface-variant/30">
+<div class="flex items-center gap-stack-md">
+<div class="w-10 h-10 rounded-full bg-secondary-container/30 flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary">person</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface font-bold">Kasun Madhusanka</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Grade 12-C • 08:15 AM</p>
+</div>
+</div>
+<span class="px-2 py-1 bg-green-100 text-green-700 font-label-md text-[10px] rounded uppercase font-bold">Arrived</span>
+</div>
+<div class="p-stack-md flex items-center justify-between border-b border-surface-variant/30">
+<div class="flex items-center gap-stack-md">
+<div class="w-10 h-10 rounded-full bg-secondary-container/30 flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary">person</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface font-bold">Sandun Fernando</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Grade 10-A • 08:12 AM</p>
+</div>
+</div>
+<span class="px-2 py-1 bg-green-100 text-green-700 font-label-md text-[10px] rounded uppercase font-bold">Arrived</span>
+</div>
+<div class="p-stack-md flex items-center justify-between">
+<div class="flex items-center gap-stack-md">
+<div class="w-10 h-10 rounded-full bg-secondary-container/30 flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary">person</span>
+</div>
+<div>
+<p class="font-body-md text-body-md text-on-surface font-bold">Priyanthi Ratnayake</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Grade 11-A • 08:05 AM</p>
+</div>
+</div>
+<span class="px-2 py-1 bg-green-100 text-green-700 font-label-md text-[10px] rounded uppercase font-bold">Arrived</span>
+</div>
+</div>
+</section>
+<script>
+        document.getElementById('biometric-trigger').addEventListener('click', function() {
+            const icon = document.getElementById('fingerprint-icon');
+            const spark = document.getElementById('success-sparkle');
+            const ring = document.getElementById('status-ring');
+            const msg = document.getElementById('status-message');
+            
+            icon.classList.add('scale-75', 'opacity-0');
+            ring.classList.add('hidden');
+            
+            setTimeout(() => {
+                spark.classList.remove('opacity-0', 'scale-50');
+                spark.classList.add('opacity-100', 'scale-100');
+                msg.textContent = 'Success!';
+                msg.classList.remove('text-primary');
+                msg.classList.add('text-on-tertiary-container');
+                
+                // Trigger haptic-like vibration
+                if (window.navigator.vibrate) {
+                    window.navigator.vibrate([50, 30, 50]);
+                }
+            }, 300);
+
+            setTimeout(() => {
+                spark.classList.add('opacity-0', 'scale-50');
+                spark.classList.remove('opacity-100', 'scale-100');
+                
+                setTimeout(() => {
+                    icon.classList.remove('scale-75', 'opacity-0');
+                    ring.classList.remove('hidden');
+                    msg.textContent = 'Place Finger';
+                    msg.classList.add('text-primary');
+                    msg.classList.remove('text-on-tertiary-container');
+                }, 300);
+            }, 2500);
+        });
+    </script>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-highest/90 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.04)]" data-active-classes="text-primary font-bold"><div class="flex items-center justify-around h-16"><a class="flex flex-col items-center gap-1 text-on-surface-variant transition-colors" data-path="home" href="#"><span class="material-symbols-outlined">home</span><span class="font-label-md text-label-md leading-[1]">Home</span></a><a class="flex flex-col items-center gap-1 text-on-surface-variant transition-colors" data-path="search" href="#"><span class="material-symbols-outlined">search</span><span class="font-label-md text-label-md leading-[1]">Search</span></a><a aria-current="page" class="flex flex-col items-center gap-1 transition-colors text-primary font-bold" data-path="attendance" href="#"><span class="material-symbols-outlined">how_to_reg</span><span class="font-label-md text-label-md leading-[1]">Attendance</span></a><a class="flex flex-col items-center gap-1 text-on-surface-variant transition-colors" data-path="reports" href="#"><span class="material-symbols-outlined">description</span><span class="font-label-md text-label-md leading-[1]">Reports</span></a><a class="flex flex-col items-center gap-1 text-on-surface-variant transition-colors" data-path="calendar" href="#"><span class="material-symbols-outlined">calendar_month</span><span class="font-label-md text-label-md leading-[1]">Calendar</span></a></div></nav>```</body></html>
